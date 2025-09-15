@@ -1,0 +1,15 @@
+9/8/2025, 10:00:14 PM GMT+2 0: 
+
+----------------------------------------------
+9/8/2025, 10:00:14 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.108"}, modulepath: /home/mladen/.config/discord/0.0.108/modules
+9/8/2025, 10:00:14 PM GMT+2 2: ✅ webContents.created web1 "index.html"
+9/8/2025, 10:00:14 PM GMT+2 3: ✅ window.created win1 "discord"
+9/8/2025, 10:00:15 PM GMT+2 4: ✅ webContents.did-finish-load web1
+9/8/2025, 10:00:50 PM GMT+2 5: ✅ webContents.created web2 ""
+9/8/2025, 10:00:50 PM GMT+2 6: ✅ window.created win2 "Discord"
+9/8/2025, 10:00:54 PM GMT+2 7: ✅ webContents.did-finish-load web2
+9/8/2025, 10:00:56 PM GMT+2 8: window.close win1
+9/8/2025, 10:00:56 PM GMT+2 9: webContents.destroyed web1
+9/8/2025, 10:00:56 PM GMT+2 10: window.closed win1
+9/8/2025, 11:44:34 PM GMT+2 11: window.close win2
+9/8/2025, 11:45:17 PM GMT+2 12: before-quit

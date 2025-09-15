@@ -1,0 +1,14 @@
+2024-12-26 13:43:15.825 [info] Started local extension host with pid 2447.
+2024-12-26 13:43:18.550 [info] [perf] Render performance baseline is 44ms
+2024-12-26 13:43:21.767 [error] Timed out waiting for authentication provider to register
+2024-12-26 13:50:39.801 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at mVt.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at mVt.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Fdt.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:41680)
+    at Fdt.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:41458)
+    at Fdt.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:40546)
+    at Fdt.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:39783)
+    at aee.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:38444)
+    at x.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:762:10348)

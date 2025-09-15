@@ -1,0 +1,15 @@
+2025/09/03-20:32:53.203 af5 Reusing MANIFEST /home/mladen/.config/Atom-ng/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/09/03-20:32:53.203 af5 Recovering log #7
+2025/09/03-20:32:53.203 af5 Reusing old log /home/mladen/.config/Atom-ng/IndexedDB/file__0.indexeddb.leveldb/000007.log 
+2025/09/03-20:39:30.013 e8b Level-0 table #11: started
+2025/09/03-20:39:30.017 e8b Level-0 table #11: 599 bytes OK
+2025/09/03-20:39:30.018 e8b Delete type=0 #7
+2025/09/03-20:39:30.018 e8b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/09/03-20:39:30.018 e8b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x10\x00a\x00t\x00o\x00m\x00:\x00/\x00/\x00t\x00r\x00e\x00e\x00-\x00v\x00i\x00e\x00w' @ 113 : 1
+2025/09/03-20:39:30.018 e8b Compacting 1@1 + 1@2 files
+2025/09/03-20:39:30.019 e8b Generated table #12@1: 32 keys, 775 bytes
+2025/09/03-20:39:30.019 e8b Compacted 1@1 + 1@2 files => 775 bytes
+2025/09/03-20:39:30.020 e8b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/03-20:39:30.021 e8b Delete type=2 #5
+2025/09/03-20:39:30.021 e8b Delete type=2 #11
+2025/09/03-20:39:30.021 e8b Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x10\x00a\x00t\x00o\x00m\x00:\x00/\x00/\x00t\x00r\x00e\x00e\x00-\x00v\x00i\x00e\x00w' @ 113 : 1 .. (end); will stop at (end)

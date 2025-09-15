@@ -1,0 +1,6 @@
+# GIMP gimp-operation-tool options
+
+(blending-options-expanded yes)
+(merge-filter yes)
+
+# end of gimp-operation-tool options

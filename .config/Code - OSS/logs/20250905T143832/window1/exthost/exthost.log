@@ -1,0 +1,12 @@
+2025-09-05 14:38:34.339 [info] Extension host with pid 5416 started
+2025-09-05 14:38:34.339 [info] Skipping acquiring lock for /home/mladen/.config/Code - OSS/User/workspaceStorage/78a97753d268403aa82c2ae2246093cd.
+2025-09-05 14:38:34.381 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-05 14:38:34.402 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-05 14:38:34.443 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-05 14:38:34.528 [info] Eager extensions activated
+2025-09-05 14:38:34.529 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 14:38:34.531 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 14:38:34.544 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-09-05 14:38:34.562 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 14:39:01.715 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-05 14:39:01.720 [info] Extension host with pid 5416 exiting with code 0

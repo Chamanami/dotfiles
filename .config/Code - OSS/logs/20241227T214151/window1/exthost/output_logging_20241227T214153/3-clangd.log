@@ -1,0 +1,1141 @@
+I[21:41:55.243] clangd version 18.1.8
+I[21:41:55.244] Features: linux
+I[21:41:55.244] PID: 9597
+I[21:41:55.244] Working directory: /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje
+I[21:41:55.244] argv[0]: /usr/bin/clangd
+I[21:41:55.244] Starting LSP over stdin/stdout
+I[21:41:55.247] <-- initialize(0)
+I[21:41:55.253] --> reply:initialize(0) 5 ms
+I[21:41:55.333] <-- initialized
+I[21:41:55.354] <-- textDocument/didOpen
+I[21:41:55.358] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:41:55.358] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 1 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:41:55.375] --> textDocument/clangd.fileStatus
+I[21:41:55.561] <-- textDocument/codeAction(1)
+I[21:41:55.561] <-- textDocument/documentLink(2)
+I[21:41:55.561] <-- textDocument/inlayHint(3)
+I[21:41:55.654] <-- $/cancelRequest
+I[21:41:55.655] <-- $/cancelRequest
+I[21:41:55.655] <-- textDocument/codeAction(4)
+I[21:41:55.655] <-- textDocument/foldingRange(5)
+I[21:41:55.657] --> reply:textDocument/foldingRange(5) 1 ms
+I[21:41:55.706] <-- textDocument/documentLink(6)
+I[21:41:55.717] <-- textDocument/documentSymbol(7)
+I[21:41:55.807] <-- $/cancelRequest
+I[21:41:55.808] <-- textDocument/codeAction(8)
+I[21:41:55.808] <-- $/cancelRequest
+I[21:41:55.809] <-- textDocument/codeAction(9)
+I[21:41:55.879] <-- $/setTrace
+I[21:41:55.879] unhandled notification $/setTrace
+I[21:41:55.892] <-- textDocument/semanticTokens/full(10)
+I[21:41:56.101] <-- $/setTrace
+I[21:41:56.101] unhandled notification $/setTrace
+I[21:41:56.135] <-- textDocument/documentSymbol(11)
+I[21:41:56.276] Built preamble of size 5251080 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 1 in 0.90 seconds
+I[21:41:56.276] --> workspace/semanticTokens/refresh(0)
+I[21:41:56.276] Indexing c++17 standard library in the context of /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:41:56.278] <-- reply(0)
+I[21:41:56.391] --> textDocument/publishDiagnostics
+I[21:41:56.391] --> textDocument/inactiveRegions
+I[21:41:56.392] --> reply:textDocument/codeAction(1) 831 ms, error: Task was cancelled.
+I[21:41:56.392] --> reply:textDocument/documentLink(2) 831 ms, error: Task was cancelled.
+I[21:41:56.392] --> reply:textDocument/inlayHint(3) 831 ms
+I[21:41:56.393] --> reply:textDocument/codeAction(4) 737 ms, error: Task was cancelled.
+I[21:41:56.393] --> reply:textDocument/documentLink(6) 687 ms
+I[21:41:56.394] --> reply:textDocument/documentSymbol(7) 677 ms
+[Error - 9:41:56 PM] Request textDocument/codeAction failed.
+[object Object]
+I[21:41:56.395] --> reply:textDocument/codeAction(8) 586 ms, error: Task was cancelled.
+I[21:41:56.395] --> reply:textDocument/codeAction(9) 585 ms
+I[21:41:56.396] --> reply:textDocument/semanticTokens/full(10) 503 ms
+I[21:41:56.397] --> reply:textDocument/documentSymbol(11) 261 ms
+I[21:41:56.397] --> textDocument/clangd.fileStatus
+[Error - 9:41:56 PM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 9:41:56 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 9:41:56 PM] Request textDocument/codeAction failed.
+[object Object]
+I[21:41:56.652] <-- textDocument/codeAction(12)
+I[21:41:56.652] --> reply:textDocument/codeAction(12) 0 ms
+I[21:41:56.652] --> textDocument/clangd.fileStatus
+I[21:41:56.993] <-- textDocument/semanticTokens/full/delta(13)
+I[21:41:56.994] --> reply:textDocument/semanticTokens/full/delta(13) 1 ms
+I[21:41:56.995] --> textDocument/clangd.fileStatus
+I[21:41:58.584] <-- textDocument/hover(14)
+I[21:41:58.585] --> reply:textDocument/hover(14) 0 ms
+I[21:41:58.585] --> textDocument/clangd.fileStatus
+I[21:41:58.807] Indexed c++17 standard library (incomplete due to errors): 14164 symbols, 1810 filtered
+I[21:42:01.573] <-- textDocument/inlayHint(15)
+I[21:42:01.574] --> reply:textDocument/inlayHint(15) 0 ms
+I[21:42:01.575] --> textDocument/clangd.fileStatus
+I[21:42:04.080] <-- textDocument/inlayHint(16)
+I[21:42:04.080] --> reply:textDocument/inlayHint(16) 0 ms
+I[21:42:04.081] --> textDocument/clangd.fileStatus
+I[21:42:06.222] <-- textDocument/inlayHint(17)
+I[21:42:06.223] --> reply:textDocument/inlayHint(17) 1 ms
+I[21:42:06.224] --> textDocument/clangd.fileStatus
+I[21:42:07.923] <-- textDocument/inlayHint(18)
+I[21:42:07.924] --> reply:textDocument/inlayHint(18) 0 ms
+I[21:42:07.924] --> textDocument/clangd.fileStatus
+I[21:42:08.705] <-- textDocument/inlayHint(19)
+I[21:42:08.706] --> reply:textDocument/inlayHint(19) 0 ms
+I[21:42:08.706] --> textDocument/clangd.fileStatus
+I[21:42:09.629] <-- textDocument/inlayHint(20)
+I[21:42:09.630] --> reply:textDocument/inlayHint(20) 1 ms
+I[21:42:09.631] --> textDocument/clangd.fileStatus
+I[21:42:10.440] <-- textDocument/inlayHint(21)
+I[21:42:10.441] --> reply:textDocument/inlayHint(21) 1 ms
+I[21:42:10.441] --> textDocument/clangd.fileStatus
+I[21:42:10.641] <-- textDocument/inlayHint(22)
+I[21:42:10.642] --> reply:textDocument/inlayHint(22) 0 ms
+I[21:42:10.642] --> textDocument/clangd.fileStatus
+I[21:42:11.089] <-- textDocument/inlayHint(23)
+I[21:42:11.090] --> reply:textDocument/inlayHint(23) 0 ms
+I[21:42:11.090] --> textDocument/clangd.fileStatus
+I[21:42:11.179] <-- textDocument/inlayHint(24)
+I[21:42:11.180] --> reply:textDocument/inlayHint(24) 0 ms
+I[21:42:11.180] --> textDocument/clangd.fileStatus
+I[21:42:12.193] <-- textDocument/inlayHint(25)
+I[21:42:12.193] --> reply:textDocument/inlayHint(25) 0 ms
+I[21:42:12.193] --> textDocument/clangd.fileStatus
+I[21:42:12.364] <-- textDocument/inlayHint(26)
+I[21:42:12.365] --> reply:textDocument/inlayHint(26) 0 ms
+I[21:42:12.365] --> textDocument/clangd.fileStatus
+I[21:42:12.394] <-- textDocument/inlayHint(27)
+I[21:42:12.394] --> reply:textDocument/inlayHint(27) 0 ms
+I[21:42:12.394] --> textDocument/clangd.fileStatus
+I[21:42:12.468] <-- textDocument/inlayHint(28)
+I[21:42:12.469] --> reply:textDocument/inlayHint(28) 0 ms
+I[21:42:12.469] --> textDocument/clangd.fileStatus
+I[21:42:13.394] <-- textDocument/inlayHint(29)
+I[21:42:13.395] --> reply:textDocument/inlayHint(29) 0 ms
+I[21:42:13.395] --> textDocument/clangd.fileStatus
+I[21:42:13.963] <-- textDocument/inlayHint(30)
+I[21:42:13.964] --> reply:textDocument/inlayHint(30) 0 ms
+I[21:42:13.964] --> textDocument/clangd.fileStatus
+I[21:42:17.391] <-- textDocument/codeAction(31)
+I[21:42:17.391] --> reply:textDocument/codeAction(31) 0 ms
+I[21:42:17.391] --> textDocument/clangd.fileStatus
+I[21:42:18.368] <-- textDocument/inlayHint(32)
+I[21:42:18.369] --> reply:textDocument/inlayHint(32) 0 ms
+I[21:42:18.369] --> textDocument/clangd.fileStatus
+I[21:42:19.419] <-- textDocument/inlayHint(33)
+I[21:42:19.420] --> reply:textDocument/inlayHint(33) 0 ms
+I[21:42:19.420] --> textDocument/clangd.fileStatus
+I[21:42:20.423] <-- textDocument/inlayHint(34)
+I[21:42:20.423] --> reply:textDocument/inlayHint(34) 0 ms
+I[21:42:20.423] --> textDocument/clangd.fileStatus
+I[21:42:21.016] <-- textDocument/inlayHint(35)
+I[21:42:21.016] --> reply:textDocument/inlayHint(35) 0 ms
+I[21:42:21.016] --> textDocument/clangd.fileStatus
+I[21:42:21.626] <-- textDocument/inlayHint(36)
+I[21:42:21.626] --> reply:textDocument/inlayHint(36) 0 ms
+I[21:42:21.627] --> textDocument/clangd.fileStatus
+I[21:42:21.867] <-- textDocument/inlayHint(37)
+I[21:42:21.867] --> reply:textDocument/inlayHint(37) 0 ms
+I[21:42:21.868] --> textDocument/clangd.fileStatus
+I[21:42:22.663] <-- textDocument/inlayHint(38)
+I[21:42:22.664] --> reply:textDocument/inlayHint(38) 0 ms
+I[21:42:22.664] --> textDocument/clangd.fileStatus
+I[21:42:22.817] <-- textDocument/inlayHint(39)
+I[21:42:22.818] --> reply:textDocument/inlayHint(39) 0 ms
+I[21:42:22.818] --> textDocument/clangd.fileStatus
+I[21:42:24.089] <-- textDocument/documentHighlight(40)
+I[21:42:24.091] --> reply:textDocument/documentHighlight(40) 2 ms
+I[21:42:24.091] --> textDocument/clangd.fileStatus
+I[21:42:24.283] <-- textDocument/codeAction(41)
+I[21:42:24.283] --> reply:textDocument/codeAction(41) 0 ms
+I[21:42:24.283] --> textDocument/clangd.fileStatus
+I[21:42:24.716] <-- textDocument/inlayHint(42)
+I[21:42:24.716] --> reply:textDocument/inlayHint(42) 0 ms
+I[21:42:24.716] --> textDocument/clangd.fileStatus
+I[21:42:26.167] <-- textDocument/codeAction(43)
+I[21:42:26.167] --> reply:textDocument/codeAction(43) 0 ms
+I[21:42:26.167] --> textDocument/clangd.fileStatus
+I[21:42:28.346] <-- textDocument/hover(44)
+I[21:42:28.347] --> reply:textDocument/hover(44) 1 ms
+I[21:42:28.347] --> textDocument/clangd.fileStatus
+I[21:44:54.044] <-- $/setTrace
+I[21:44:54.044] unhandled notification $/setTrace
+I[21:44:55.405] <-- textDocument/codeAction(45)
+I[21:44:55.406] --> reply:textDocument/codeAction(45) 0 ms
+I[21:44:55.406] --> textDocument/clangd.fileStatus
+I[21:44:55.480] <-- textDocument/documentLink(46)
+I[21:44:55.480] --> reply:textDocument/documentLink(46) 0 ms
+I[21:44:55.480] --> textDocument/clangd.fileStatus
+I[21:44:55.489] <-- textDocument/inlayHint(47)
+I[21:44:55.489] --> reply:textDocument/inlayHint(47) 0 ms
+I[21:44:55.489] --> textDocument/clangd.fileStatus
+I[21:44:55.594] <-- textDocument/foldingRange(48)
+I[21:44:55.596] --> reply:textDocument/foldingRange(48) 1 ms
+I[21:44:55.649] <-- textDocument/codeAction(49)
+I[21:44:55.649] --> reply:textDocument/codeAction(49) 0 ms
+I[21:44:55.649] --> textDocument/clangd.fileStatus
+I[21:44:55.674] <-- textDocument/semanticTokens/full/delta(50)
+I[21:44:55.675] --> reply:textDocument/semanticTokens/full/delta(50) 1 ms
+I[21:44:55.676] --> textDocument/clangd.fileStatus
+I[21:44:55.695] <-- textDocument/documentSymbol(51)
+I[21:44:55.696] --> reply:textDocument/documentSymbol(51) 0 ms
+I[21:44:55.697] --> textDocument/clangd.fileStatus
+I[21:44:56.337] <-- textDocument/codeAction(52)
+I[21:44:56.337] --> reply:textDocument/codeAction(52) 0 ms
+I[21:44:56.337] --> textDocument/clangd.fileStatus
+I[21:44:57.056] <-- textDocument/inlayHint(53)
+I[21:44:57.057] --> reply:textDocument/inlayHint(53) 0 ms
+I[21:44:57.057] --> textDocument/clangd.fileStatus
+I[21:44:57.140] <-- textDocument/inlayHint(54)
+I[21:44:57.141] --> reply:textDocument/inlayHint(54) 0 ms
+I[21:44:57.141] --> textDocument/clangd.fileStatus
+I[21:44:58.320] <-- textDocument/inlayHint(55)
+I[21:44:58.321] --> reply:textDocument/inlayHint(55) 0 ms
+I[21:44:58.321] --> textDocument/clangd.fileStatus
+I[21:44:58.397] <-- textDocument/inlayHint(56)
+I[21:44:58.397] --> reply:textDocument/inlayHint(56) 0 ms
+I[21:44:58.397] --> textDocument/clangd.fileStatus
+I[21:44:58.423] <-- textDocument/inlayHint(57)
+I[21:44:58.424] --> reply:textDocument/inlayHint(57) 0 ms
+I[21:44:58.424] --> textDocument/clangd.fileStatus
+I[21:45:03.096] <-- textDocument/hover(58)
+I[21:45:03.106] --> reply:textDocument/hover(58) 9 ms
+I[21:45:03.106] --> textDocument/clangd.fileStatus
+I[21:45:03.273] <-- textDocument/hover(59)
+I[21:45:03.274] --> reply:textDocument/hover(59) 1 ms
+I[21:45:03.275] --> textDocument/clangd.fileStatus
+I[21:45:04.615] <-- textDocument/hover(60)
+I[21:45:04.617] --> reply:textDocument/hover(60) 1 ms
+I[21:45:04.617] --> textDocument/clangd.fileStatus
+I[21:45:05.039] <-- textDocument/inlayHint(61)
+I[21:45:05.039] --> reply:textDocument/inlayHint(61) 0 ms
+I[21:45:05.040] --> textDocument/clangd.fileStatus
+I[21:45:05.106] <-- textDocument/inlayHint(62)
+I[21:45:05.107] --> reply:textDocument/inlayHint(62) 0 ms
+I[21:45:05.107] --> textDocument/clangd.fileStatus
+I[21:45:05.235] <-- textDocument/inlayHint(63)
+I[21:45:05.236] --> reply:textDocument/inlayHint(63) 0 ms
+I[21:45:05.236] --> textDocument/clangd.fileStatus
+I[21:45:05.540] <-- textDocument/inlayHint(64)
+I[21:45:05.540] --> reply:textDocument/inlayHint(64) 0 ms
+I[21:45:05.541] --> textDocument/clangd.fileStatus
+I[21:45:05.849] <-- textDocument/inlayHint(65)
+I[21:45:05.850] --> reply:textDocument/inlayHint(65) 0 ms
+I[21:45:05.850] --> textDocument/clangd.fileStatus
+I[21:45:06.449] <-- textDocument/inlayHint(66)
+I[21:45:06.449] --> reply:textDocument/inlayHint(66) 0 ms
+I[21:45:06.449] --> textDocument/clangd.fileStatus
+I[21:45:09.283] <-- textDocument/codeAction(67)
+I[21:45:09.283] --> reply:textDocument/codeAction(67) 0 ms
+I[21:45:09.283] --> textDocument/clangd.fileStatus
+I[21:45:10.354] <-- textDocument/codeAction(68)
+I[21:45:10.355] --> reply:textDocument/codeAction(68) 0 ms
+I[21:45:10.355] --> textDocument/clangd.fileStatus
+I[21:45:10.817] <-- textDocument/codeAction(69)
+I[21:45:10.817] --> reply:textDocument/codeAction(69) 0 ms
+I[21:45:10.817] --> textDocument/clangd.fileStatus
+I[21:45:11.238] <-- textDocument/codeAction(70)
+I[21:45:11.238] --> reply:textDocument/codeAction(70) 0 ms
+I[21:45:11.238] --> textDocument/clangd.fileStatus
+I[21:45:11.825] <-- textDocument/didChange
+I[21:45:11.825] --> textDocument/clangd.fileStatus
+I[21:45:11.877] <-- textDocument/inlayHint(71)
+I[21:45:11.877] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:45:11.879] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 2 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:45:11.880] --> textDocument/clangd.fileStatus
+I[21:45:11.945] <-- textDocument/didChange
+I[21:45:11.947] <-- $/cancelRequest
+I[21:45:11.978] <-- textDocument/inlayHint(72)
+I[21:45:11.982] --> textDocument/clangd.fileStatus
+I[21:45:11.983] --> textDocument/publishDiagnostics
+I[21:45:11.984] --> textDocument/inactiveRegions
+I[21:45:11.985] --> textDocument/clangd.fileStatus
+I[21:45:11.985] --> reply:textDocument/inlayHint(71) 107 ms, error: Task was cancelled.
+I[21:45:11.985] --> textDocument/clangd.fileStatus
+I[21:45:11.985] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+[Error - 9:45:11 PM] Request textDocument/inlayHint failed.
+[object Object]
+I[21:45:11.985] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 3 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:45:11.987] --> textDocument/clangd.fileStatus
+I[21:45:12.089] --> textDocument/clangd.fileStatus
+I[21:45:12.091] --> textDocument/publishDiagnostics
+I[21:45:12.091] --> textDocument/inactiveRegions
+I[21:45:12.092] --> textDocument/clangd.fileStatus
+I[21:45:12.092] --> reply:textDocument/inlayHint(72) 114 ms
+I[21:45:12.092] --> textDocument/clangd.fileStatus
+I[21:45:12.127] <-- textDocument/semanticTokens/full/delta(73)
+I[21:45:12.127] --> textDocument/clangd.fileStatus
+I[21:45:12.128] --> reply:textDocument/semanticTokens/full/delta(73) 1 ms
+I[21:45:12.128] --> textDocument/clangd.fileStatus
+I[21:45:12.148] <-- textDocument/foldingRange(74)
+I[21:45:12.149] --> reply:textDocument/foldingRange(74) 1 ms
+I[21:45:12.296] <-- textDocument/documentSymbol(75)
+I[21:45:12.296] --> textDocument/clangd.fileStatus
+I[21:45:12.298] --> reply:textDocument/documentSymbol(75) 1 ms
+I[21:45:12.298] --> textDocument/clangd.fileStatus
+I[21:45:12.308] <-- textDocument/documentSymbol(76)
+I[21:45:12.308] --> textDocument/clangd.fileStatus
+I[21:45:12.309] --> reply:textDocument/documentSymbol(76) 0 ms
+I[21:45:12.309] --> textDocument/clangd.fileStatus
+I[21:45:12.361] <-- textDocument/codeAction(77)
+I[21:45:12.361] --> textDocument/clangd.fileStatus
+I[21:45:12.361] --> reply:textDocument/codeAction(77) 0 ms
+I[21:45:12.361] --> textDocument/clangd.fileStatus
+I[21:45:12.589] Built preamble of size 5247008 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 2 in 0.71 seconds
+I[21:45:12.589] --> workspace/semanticTokens/refresh(1)
+I[21:45:12.589] --> textDocument/clangd.fileStatus
+I[21:45:12.589] --> textDocument/clangd.fileStatus
+I[21:45:12.591] <-- reply(1)
+I[21:45:12.592] --> textDocument/clangd.fileStatus
+I[21:45:12.593] <-- textDocument/semanticTokens/full/delta(78)
+I[21:45:12.694] --> textDocument/clangd.fileStatus
+I[21:45:12.696] --> textDocument/publishDiagnostics
+I[21:45:12.696] --> textDocument/inactiveRegions
+I[21:45:12.697] --> textDocument/clangd.fileStatus
+I[21:45:12.698] --> reply:textDocument/semanticTokens/full/delta(78) 105 ms
+I[21:45:12.698] --> textDocument/clangd.fileStatus
+I[21:45:12.749] <-- textDocument/didSave
+I[21:45:12.750] File version went from 3 to 3
+I[21:45:12.750] --> textDocument/clangd.fileStatus
+I[21:45:12.764] <-- textDocument/inlayHint(79)
+I[21:45:12.765] --> textDocument/clangd.fileStatus
+I[21:45:12.765] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:45:12.765] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 3 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:45:12.767] --> textDocument/clangd.fileStatus
+I[21:45:12.767] --> reply:textDocument/inlayHint(79) 2 ms
+I[21:45:12.767] --> textDocument/clangd.fileStatus
+I[21:45:12.948] <-- textDocument/documentLink(80)
+I[21:45:12.948] --> textDocument/clangd.fileStatus
+I[21:45:12.948] --> reply:textDocument/documentLink(80) 0 ms
+I[21:45:12.948] --> textDocument/clangd.fileStatus
+I[21:45:12.954] <-- textDocument/codeAction(81)
+I[21:45:12.954] --> textDocument/clangd.fileStatus
+I[21:45:12.954] --> reply:textDocument/codeAction(81) 0 ms
+I[21:45:12.954] --> textDocument/clangd.fileStatus
+I[21:45:13.281] Built preamble of size 5247004 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 3 in 0.69 seconds
+I[21:45:13.281] --> workspace/semanticTokens/refresh(2)
+I[21:45:13.281] --> textDocument/clangd.fileStatus
+I[21:45:13.281] --> textDocument/clangd.fileStatus
+I[21:45:13.282] <-- reply(2)
+I[21:45:13.283] <-- textDocument/semanticTokens/full/delta(82)
+I[21:45:13.382] --> textDocument/publishDiagnostics
+I[21:45:13.382] --> textDocument/inactiveRegions
+I[21:45:13.384] --> reply:textDocument/semanticTokens/full/delta(82) 100 ms
+I[21:45:13.384] --> textDocument/clangd.fileStatus
+I[21:45:13.637] <-- textDocument/codeAction(83)
+I[21:45:13.637] --> reply:textDocument/codeAction(83) 0 ms
+I[21:45:13.638] --> textDocument/clangd.fileStatus
+I[21:45:13.951] <-- textDocument/hover(84)
+I[21:45:13.952] --> reply:textDocument/hover(84) 1 ms
+I[21:45:13.953] --> textDocument/clangd.fileStatus
+I[21:45:24.891] <-- textDocument/inlayHint(85)
+I[21:45:24.892] --> reply:textDocument/inlayHint(85) 1 ms
+I[21:45:24.892] --> textDocument/clangd.fileStatus
+I[21:45:25.323] <-- textDocument/inlayHint(86)
+I[21:45:25.324] --> reply:textDocument/inlayHint(86) 0 ms
+I[21:45:25.324] --> textDocument/clangd.fileStatus
+I[21:45:25.475] <-- textDocument/inlayHint(87)
+I[21:45:25.475] --> reply:textDocument/inlayHint(87) 0 ms
+I[21:45:25.476] --> textDocument/clangd.fileStatus
+I[21:45:25.505] <-- textDocument/inlayHint(88)
+I[21:45:25.505] --> reply:textDocument/inlayHint(88) 0 ms
+I[21:45:25.505] --> textDocument/clangd.fileStatus
+I[21:45:25.590] <-- textDocument/inlayHint(89)
+I[21:45:25.591] --> reply:textDocument/inlayHint(89) 0 ms
+I[21:45:25.591] --> textDocument/clangd.fileStatus
+I[21:45:25.638] <-- textDocument/inlayHint(90)
+I[21:45:25.639] --> reply:textDocument/inlayHint(90) 0 ms
+I[21:45:25.639] --> textDocument/clangd.fileStatus
+I[21:45:25.691] <-- textDocument/inlayHint(91)
+I[21:45:25.692] --> reply:textDocument/inlayHint(91) 0 ms
+I[21:45:25.692] --> textDocument/clangd.fileStatus
+I[21:45:25.757] <-- textDocument/inlayHint(92)
+I[21:45:25.758] --> reply:textDocument/inlayHint(92) 0 ms
+I[21:45:25.758] --> textDocument/clangd.fileStatus
+I[21:45:25.840] <-- textDocument/inlayHint(93)
+I[21:45:25.841] --> reply:textDocument/inlayHint(93) 0 ms
+I[21:45:25.841] --> textDocument/clangd.fileStatus
+I[21:45:25.900] <-- textDocument/inlayHint(94)
+I[21:45:25.901] --> reply:textDocument/inlayHint(94) 0 ms
+I[21:45:25.901] --> textDocument/clangd.fileStatus
+I[21:45:25.929] <-- textDocument/inlayHint(95)
+I[21:45:25.930] --> reply:textDocument/inlayHint(95) 0 ms
+I[21:45:25.930] --> textDocument/clangd.fileStatus
+I[21:45:26.105] <-- textDocument/inlayHint(96)
+I[21:45:26.106] --> reply:textDocument/inlayHint(96) 0 ms
+I[21:45:26.106] --> textDocument/clangd.fileStatus
+I[21:45:26.356] <-- textDocument/inlayHint(97)
+I[21:45:26.356] --> reply:textDocument/inlayHint(97) 0 ms
+I[21:45:26.356] --> textDocument/clangd.fileStatus
+I[21:45:26.421] <-- textDocument/inlayHint(98)
+I[21:45:26.422] --> reply:textDocument/inlayHint(98) 0 ms
+I[21:45:26.422] --> textDocument/clangd.fileStatus
+I[21:45:26.474] <-- textDocument/inlayHint(99)
+I[21:45:26.474] --> reply:textDocument/inlayHint(99) 0 ms
+I[21:45:26.474] --> textDocument/clangd.fileStatus
+I[21:45:26.505] <-- textDocument/inlayHint(100)
+I[21:45:26.506] --> reply:textDocument/inlayHint(100) 0 ms
+I[21:45:26.506] --> textDocument/clangd.fileStatus
+I[21:45:26.573] <-- textDocument/inlayHint(101)
+I[21:45:26.573] --> reply:textDocument/inlayHint(101) 0 ms
+I[21:45:26.573] --> textDocument/clangd.fileStatus
+I[21:45:27.193] <-- textDocument/inlayHint(102)
+I[21:45:27.194] --> reply:textDocument/inlayHint(102) 0 ms
+I[21:45:27.194] --> textDocument/clangd.fileStatus
+I[21:45:27.331] <-- textDocument/inlayHint(103)
+I[21:45:27.332] --> reply:textDocument/inlayHint(103) 0 ms
+I[21:45:27.332] --> textDocument/clangd.fileStatus
+I[21:45:27.828] <-- textDocument/inlayHint(104)
+I[21:45:27.828] --> reply:textDocument/inlayHint(104) 0 ms
+I[21:45:27.829] --> textDocument/clangd.fileStatus
+I[21:45:27.970] <-- textDocument/inlayHint(105)
+I[21:45:27.970] --> reply:textDocument/inlayHint(105) 0 ms
+I[21:45:27.971] --> textDocument/clangd.fileStatus
+I[21:45:28.197] <-- textDocument/inlayHint(106)
+I[21:45:28.198] --> reply:textDocument/inlayHint(106) 0 ms
+I[21:45:28.198] --> textDocument/clangd.fileStatus
+I[21:45:28.262] <-- textDocument/inlayHint(107)
+I[21:45:28.262] --> reply:textDocument/inlayHint(107) 0 ms
+I[21:45:28.262] --> textDocument/clangd.fileStatus
+I[21:45:28.574] <-- textDocument/inlayHint(108)
+I[21:45:28.575] --> reply:textDocument/inlayHint(108) 0 ms
+I[21:45:28.575] --> textDocument/clangd.fileStatus
+I[21:45:28.627] <-- textDocument/inlayHint(109)
+I[21:45:28.627] --> reply:textDocument/inlayHint(109) 0 ms
+I[21:45:28.627] --> textDocument/clangd.fileStatus
+I[21:45:28.863] <-- textDocument/inlayHint(110)
+I[21:45:28.864] --> reply:textDocument/inlayHint(110) 0 ms
+I[21:45:28.864] --> textDocument/clangd.fileStatus
+I[21:45:28.892] <-- textDocument/inlayHint(111)
+I[21:45:28.893] --> reply:textDocument/inlayHint(111) 0 ms
+I[21:45:28.893] --> textDocument/clangd.fileStatus
+I[21:45:28.924] <-- textDocument/inlayHint(112)
+I[21:45:28.924] --> reply:textDocument/inlayHint(112) 0 ms
+I[21:45:28.924] --> textDocument/clangd.fileStatus
+I[21:45:28.953] <-- textDocument/inlayHint(113)
+I[21:45:28.954] --> reply:textDocument/inlayHint(113) 0 ms
+I[21:45:28.954] --> textDocument/clangd.fileStatus
+I[21:45:30.501] <-- textDocument/hover(114)
+I[21:45:30.502] --> reply:textDocument/hover(114) 0 ms
+I[21:45:30.502] --> textDocument/clangd.fileStatus
+I[21:45:30.904] <-- textDocument/hover(115)
+I[21:45:30.905] --> reply:textDocument/hover(115) 0 ms
+I[21:45:30.905] --> textDocument/clangd.fileStatus
+I[21:45:31.451] <-- textDocument/hover(116)
+I[21:45:31.451] --> reply:textDocument/hover(116) 0 ms
+I[21:45:31.451] --> textDocument/clangd.fileStatus
+I[21:45:31.850] <-- textDocument/hover(117)
+I[21:45:31.850] --> reply:textDocument/hover(117) 0 ms
+I[21:45:31.850] --> textDocument/clangd.fileStatus
+I[21:45:32.007] <-- textDocument/hover(118)
+I[21:45:32.007] --> reply:textDocument/hover(118) 0 ms
+I[21:45:32.007] --> textDocument/clangd.fileStatus
+I[21:45:32.782] <-- textDocument/hover(119)
+I[21:45:32.783] --> reply:textDocument/hover(119) 0 ms
+I[21:45:32.783] --> textDocument/clangd.fileStatus
+I[21:45:33.300] <-- textDocument/hover(120)
+I[21:45:33.300] --> reply:textDocument/hover(120) 0 ms
+I[21:45:33.300] --> textDocument/clangd.fileStatus
+I[21:45:33.626] <-- textDocument/hover(121)
+I[21:45:33.627] --> reply:textDocument/hover(121) 0 ms
+I[21:45:33.627] --> textDocument/clangd.fileStatus
+I[21:45:34.410] <-- textDocument/hover(122)
+I[21:45:34.410] --> reply:textDocument/hover(122) 0 ms
+I[21:45:34.410] --> textDocument/clangd.fileStatus
+I[21:45:34.817] <-- textDocument/hover(123)
+I[21:45:34.817] --> reply:textDocument/hover(123) 0 ms
+I[21:45:34.817] --> textDocument/clangd.fileStatus
+I[21:45:36.271] <-- textDocument/hover(124)
+I[21:45:36.272] --> reply:textDocument/hover(124) 1 ms
+I[21:45:36.272] --> textDocument/clangd.fileStatus
+I[21:45:37.441] <-- textDocument/inlayHint(125)
+I[21:45:37.442] --> reply:textDocument/inlayHint(125) 0 ms
+I[21:45:37.442] --> textDocument/clangd.fileStatus
+I[21:45:37.516] <-- textDocument/inlayHint(126)
+I[21:45:37.517] --> reply:textDocument/inlayHint(126) 0 ms
+I[21:45:37.517] --> textDocument/clangd.fileStatus
+I[21:45:38.155] <-- textDocument/inlayHint(127)
+I[21:45:38.156] --> reply:textDocument/inlayHint(127) 0 ms
+I[21:45:38.156] --> textDocument/clangd.fileStatus
+I[21:45:38.865] <-- textDocument/hover(128)
+I[21:45:38.866] --> reply:textDocument/hover(128) 1 ms
+I[21:45:38.866] --> textDocument/clangd.fileStatus
+I[21:45:46.693] <-- textDocument/didOpen
+I[21:45:46.694] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/am/am_sim.cpp
+I[21:45:46.695] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/am/am_sim.cpp version 1 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/am]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/am/am_sim.cpp
+I[21:45:46.696] --> textDocument/clangd.fileStatus
+I[21:45:46.726] <-- textDocument/codeAction(129)
+I[21:45:46.727] <-- textDocument/documentSymbol(130)
+I[21:45:46.930] <-- textDocument/semanticTokens/full(131)
+I[21:45:46.933] <-- textDocument/inlayHint(132)
+I[21:45:46.935] <-- textDocument/documentLink(133)
+I[21:45:46.949] <-- textDocument/foldingRange(134)
+I[21:45:46.951] --> reply:textDocument/foldingRange(134) 1 ms
+I[21:45:47.009] <-- textDocument/documentSymbol(135)
+I[21:45:47.230] Built preamble of size 3645008 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/am/am_sim.cpp version 1 in 0.53 seconds
+I[21:45:47.230] --> workspace/semanticTokens/refresh(3)
+I[21:45:47.232] <-- reply(3)
+I[21:45:47.250] --> textDocument/publishDiagnostics
+I[21:45:47.250] --> textDocument/inactiveRegions
+I[21:45:47.251] --> reply:textDocument/codeAction(129) 524 ms
+I[21:45:47.251] --> reply:textDocument/documentSymbol(130) 523 ms
+I[21:45:47.251] --> reply:textDocument/semanticTokens/full(131) 321 ms
+I[21:45:47.252] --> reply:textDocument/inlayHint(132) 318 ms
+I[21:45:47.252] --> reply:textDocument/documentLink(133) 317 ms
+I[21:45:47.252] --> reply:textDocument/documentSymbol(135) 243 ms
+I[21:45:47.253] --> textDocument/clangd.fileStatus
+I[21:45:47.604] <-- textDocument/semanticTokens/full/delta(136)
+I[21:45:47.605] --> reply:textDocument/semanticTokens/full/delta(136) 0 ms
+I[21:45:47.605] --> textDocument/clangd.fileStatus
+I[21:45:50.805] <-- textDocument/didClose
+I[21:45:50.805] --> textDocument/publishDiagnostics
+I[21:45:50.831] <-- textDocument/codeAction(137)
+I[21:45:50.831] --> reply:textDocument/codeAction(137) 0 ms
+I[21:45:50.831] --> textDocument/clangd.fileStatus
+I[21:45:50.889] <-- textDocument/documentLink(138)
+I[21:45:50.889] --> reply:textDocument/documentLink(138) 0 ms
+I[21:45:50.889] --> textDocument/clangd.fileStatus
+I[21:45:50.921] <-- textDocument/inlayHint(139)
+I[21:45:50.921] --> reply:textDocument/inlayHint(139) 0 ms
+I[21:45:50.922] --> textDocument/clangd.fileStatus
+I[21:45:51.019] <-- textDocument/foldingRange(140)
+I[21:45:51.020] --> reply:textDocument/foldingRange(140) 1 ms
+I[21:45:51.107] <-- textDocument/semanticTokens/full/delta(141)
+I[21:45:51.109] --> reply:textDocument/semanticTokens/full/delta(141) 1 ms
+I[21:45:51.109] --> textDocument/clangd.fileStatus
+I[21:45:51.123] <-- textDocument/documentSymbol(142)
+I[21:45:51.124] --> reply:textDocument/documentSymbol(142) 0 ms
+I[21:45:51.124] --> textDocument/clangd.fileStatus
+I[21:45:56.554] <-- textDocument/hover(143)
+I[21:45:56.556] --> reply:textDocument/hover(143) 1 ms
+I[21:45:56.556] --> textDocument/clangd.fileStatus
+I[21:46:02.680] <-- textDocument/hover(144)
+I[21:46:02.681] --> reply:textDocument/hover(144) 0 ms
+I[21:46:02.681] --> textDocument/clangd.fileStatus
+I[21:46:03.096] <-- textDocument/hover(145)
+I[21:46:03.096] --> reply:textDocument/hover(145) 0 ms
+I[21:46:03.096] --> textDocument/clangd.fileStatus
+I[21:46:03.789] <-- textDocument/hover(146)
+I[21:46:03.789] --> reply:textDocument/hover(146) 0 ms
+I[21:46:03.790] --> textDocument/clangd.fileStatus
+I[21:46:06.585] <-- textDocument/hover(147)
+I[21:46:06.586] --> reply:textDocument/hover(147) 0 ms
+I[21:46:06.586] --> textDocument/clangd.fileStatus
+I[21:46:14.582] <-- textDocument/inlayHint(148)
+I[21:46:14.582] --> reply:textDocument/inlayHint(148) 0 ms
+I[21:46:14.583] --> textDocument/clangd.fileStatus
+I[21:46:14.675] <-- textDocument/inlayHint(149)
+I[21:46:14.675] --> reply:textDocument/inlayHint(149) 0 ms
+I[21:46:14.676] --> textDocument/clangd.fileStatus
+I[21:46:15.527] <-- textDocument/inlayHint(150)
+I[21:46:15.528] --> reply:textDocument/inlayHint(150) 0 ms
+I[21:46:15.528] --> textDocument/clangd.fileStatus
+I[21:46:37.309] <-- textDocument/inlayHint(151)
+I[21:46:37.310] --> reply:textDocument/inlayHint(151) 1 ms
+I[21:46:37.310] --> textDocument/clangd.fileStatus
+I[21:46:37.344] <-- textDocument/inlayHint(152)
+I[21:46:37.345] --> reply:textDocument/inlayHint(152) 0 ms
+I[21:46:37.345] --> textDocument/clangd.fileStatus
+I[21:46:37.380] <-- textDocument/inlayHint(153)
+I[21:46:37.380] --> reply:textDocument/inlayHint(153) 0 ms
+I[21:46:37.381] --> textDocument/clangd.fileStatus
+I[21:46:37.472] <-- textDocument/inlayHint(154)
+I[21:46:37.473] --> reply:textDocument/inlayHint(154) 0 ms
+I[21:46:37.473] --> textDocument/clangd.fileStatus
+I[21:46:37.546] <-- textDocument/inlayHint(155)
+I[21:46:37.546] --> reply:textDocument/inlayHint(155) 0 ms
+I[21:46:37.547] --> textDocument/clangd.fileStatus
+I[21:46:37.691] <-- textDocument/inlayHint(156)
+I[21:46:37.692] --> reply:textDocument/inlayHint(156) 0 ms
+I[21:46:37.692] --> textDocument/clangd.fileStatus
+I[21:46:37.738] <-- textDocument/inlayHint(157)
+I[21:46:37.739] --> reply:textDocument/inlayHint(157) 0 ms
+I[21:46:37.740] --> textDocument/clangd.fileStatus
+I[21:46:37.793] <-- textDocument/inlayHint(158)
+I[21:46:37.794] --> reply:textDocument/inlayHint(158) 0 ms
+I[21:46:37.795] --> textDocument/clangd.fileStatus
+I[21:46:38.190] <-- textDocument/inlayHint(159)
+I[21:46:38.191] --> reply:textDocument/inlayHint(159) 0 ms
+I[21:46:38.192] --> textDocument/clangd.fileStatus
+I[21:46:38.341] <-- textDocument/inlayHint(160)
+I[21:46:38.342] --> reply:textDocument/inlayHint(160) 0 ms
+I[21:46:38.342] --> textDocument/clangd.fileStatus
+I[21:46:38.370] <-- textDocument/inlayHint(161)
+I[21:46:38.371] --> reply:textDocument/inlayHint(161) 1 ms
+I[21:46:38.371] --> textDocument/clangd.fileStatus
+I[21:46:40.670] <-- textDocument/inlayHint(162)
+I[21:46:40.671] --> reply:textDocument/inlayHint(162) 0 ms
+I[21:46:40.671] --> textDocument/clangd.fileStatus
+I[21:46:40.760] <-- textDocument/inlayHint(163)
+I[21:46:40.761] --> reply:textDocument/inlayHint(163) 0 ms
+I[21:46:40.761] --> textDocument/clangd.fileStatus
+I[21:46:42.220] <-- textDocument/inlayHint(164)
+I[21:46:42.220] --> reply:textDocument/inlayHint(164) 0 ms
+I[21:46:42.221] --> textDocument/clangd.fileStatus
+I[21:46:43.221] <-- textDocument/inlayHint(165)
+I[21:46:43.222] --> reply:textDocument/inlayHint(165) 1 ms
+I[21:46:43.222] --> textDocument/clangd.fileStatus
+I[21:46:43.724] <-- textDocument/inlayHint(166)
+I[21:46:43.725] --> reply:textDocument/inlayHint(166) 0 ms
+I[21:46:43.725] --> textDocument/clangd.fileStatus
+I[21:46:43.945] <-- textDocument/inlayHint(167)
+I[21:46:43.946] --> reply:textDocument/inlayHint(167) 0 ms
+I[21:46:43.946] --> textDocument/clangd.fileStatus
+I[21:46:43.993] <-- textDocument/inlayHint(168)
+I[21:46:43.994] --> reply:textDocument/inlayHint(168) 0 ms
+I[21:46:43.994] --> textDocument/clangd.fileStatus
+I[21:46:44.519] <-- textDocument/inlayHint(169)
+I[21:46:44.520] --> reply:textDocument/inlayHint(169) 0 ms
+I[21:46:44.520] --> textDocument/clangd.fileStatus
+I[21:46:58.244] <-- textDocument/inlayHint(170)
+I[21:46:58.245] --> reply:textDocument/inlayHint(170) 1 ms
+I[21:46:58.245] --> textDocument/clangd.fileStatus
+I[21:46:58.355] <-- textDocument/inlayHint(171)
+I[21:46:58.356] --> reply:textDocument/inlayHint(171) 1 ms
+I[21:46:58.356] --> textDocument/clangd.fileStatus
+I[21:47:08.220] <-- textDocument/inlayHint(172)
+I[21:47:08.221] --> reply:textDocument/inlayHint(172) 1 ms
+I[21:47:08.221] --> textDocument/clangd.fileStatus
+I[21:47:08.391] <-- textDocument/inlayHint(173)
+I[21:47:08.392] --> reply:textDocument/inlayHint(173) 0 ms
+I[21:47:08.392] --> textDocument/clangd.fileStatus
+I[21:47:08.418] <-- textDocument/inlayHint(174)
+I[21:47:08.419] --> reply:textDocument/inlayHint(174) 0 ms
+I[21:47:08.419] --> textDocument/clangd.fileStatus
+I[21:47:08.483] <-- textDocument/inlayHint(175)
+I[21:47:08.484] --> reply:textDocument/inlayHint(175) 0 ms
+I[21:47:08.484] --> textDocument/clangd.fileStatus
+I[21:47:08.519] <-- textDocument/inlayHint(176)
+I[21:47:08.520] --> reply:textDocument/inlayHint(176) 0 ms
+I[21:47:08.520] --> textDocument/clangd.fileStatus
+I[21:47:08.557] <-- textDocument/inlayHint(177)
+I[21:47:08.558] --> reply:textDocument/inlayHint(177) 0 ms
+I[21:47:08.558] --> textDocument/clangd.fileStatus
+I[21:47:08.584] <-- textDocument/inlayHint(178)
+I[21:47:08.585] --> reply:textDocument/inlayHint(178) 0 ms
+I[21:47:08.585] --> textDocument/clangd.fileStatus
+I[21:47:08.669] <-- textDocument/inlayHint(179)
+I[21:47:08.670] --> reply:textDocument/inlayHint(179) 0 ms
+I[21:47:08.671] --> textDocument/clangd.fileStatus
+I[21:47:09.254] <-- textDocument/inlayHint(180)
+I[21:47:09.255] --> reply:textDocument/inlayHint(180) 1 ms
+I[21:47:09.255] --> textDocument/clangd.fileStatus
+I[21:47:09.310] <-- textDocument/inlayHint(181)
+I[21:47:09.311] --> reply:textDocument/inlayHint(181) 0 ms
+I[21:47:09.311] --> textDocument/clangd.fileStatus
+I[21:47:09.352] <-- textDocument/inlayHint(182)
+I[21:47:09.353] --> reply:textDocument/inlayHint(182) 0 ms
+I[21:47:09.353] --> textDocument/clangd.fileStatus
+I[21:47:09.535] <-- textDocument/inlayHint(183)
+I[21:47:09.536] --> reply:textDocument/inlayHint(183) 0 ms
+I[21:47:09.536] --> textDocument/clangd.fileStatus
+I[21:47:10.118] <-- textDocument/inlayHint(184)
+I[21:47:10.119] --> reply:textDocument/inlayHint(184) 0 ms
+I[21:47:10.120] --> textDocument/clangd.fileStatus
+I[21:47:10.616] <-- textDocument/inlayHint(185)
+I[21:47:10.617] --> reply:textDocument/inlayHint(185) 0 ms
+I[21:47:10.618] --> textDocument/clangd.fileStatus
+I[21:47:11.223] <-- textDocument/hover(186)
+I[21:47:11.224] --> reply:textDocument/hover(186) 0 ms
+I[21:47:11.224] --> textDocument/clangd.fileStatus
+I[21:47:11.908] <-- textDocument/hover(187)
+I[21:47:11.909] --> reply:textDocument/hover(187) 1 ms
+I[21:47:11.909] --> textDocument/clangd.fileStatus
+I[21:47:13.562] <-- textDocument/hover(188)
+I[21:47:13.564] --> reply:textDocument/hover(188) 1 ms
+I[21:47:13.564] --> textDocument/clangd.fileStatus
+I[21:47:14.372] <-- textDocument/hover(189)
+I[21:47:14.374] --> reply:textDocument/hover(189) 1 ms
+I[21:47:14.374] --> textDocument/clangd.fileStatus
+I[21:47:14.972] <-- textDocument/hover(190)
+I[21:47:14.973] --> reply:textDocument/hover(190) 1 ms
+I[21:47:14.974] --> textDocument/clangd.fileStatus
+I[21:47:18.623] <-- textDocument/hover(191)
+I[21:47:18.624] --> reply:textDocument/hover(191) 1 ms
+I[21:47:18.624] --> textDocument/clangd.fileStatus
+I[21:51:25.908] <-- textDocument/inlayHint(192)
+I[21:51:25.909] --> reply:textDocument/inlayHint(192) 0 ms
+I[21:51:25.909] --> textDocument/clangd.fileStatus
+I[21:51:27.308] <-- textDocument/inlayHint(193)
+I[21:51:27.308] --> reply:textDocument/inlayHint(193) 0 ms
+I[21:51:27.309] --> textDocument/clangd.fileStatus
+I[21:51:27.341] <-- textDocument/inlayHint(194)
+I[21:51:27.342] --> reply:textDocument/inlayHint(194) 0 ms
+I[21:51:27.342] --> textDocument/clangd.fileStatus
+I[21:51:27.403] <-- textDocument/inlayHint(195)
+I[21:51:27.404] --> reply:textDocument/inlayHint(195) 0 ms
+I[21:51:27.404] --> textDocument/clangd.fileStatus
+I[21:51:27.639] <-- textDocument/inlayHint(196)
+I[21:51:27.640] --> reply:textDocument/inlayHint(196) 0 ms
+I[21:51:27.640] --> textDocument/clangd.fileStatus
+I[21:51:28.162] <-- textDocument/inlayHint(197)
+I[21:51:28.162] --> reply:textDocument/inlayHint(197) 0 ms
+I[21:51:28.164] --> textDocument/clangd.fileStatus
+I[21:51:28.735] <-- textDocument/inlayHint(198)
+I[21:51:28.736] --> reply:textDocument/inlayHint(198) 1 ms
+I[21:51:28.736] --> textDocument/clangd.fileStatus
+I[21:51:29.375] <-- textDocument/inlayHint(199)
+I[21:51:29.375] --> reply:textDocument/inlayHint(199) 0 ms
+I[21:51:29.375] --> textDocument/clangd.fileStatus
+I[21:51:29.441] <-- textDocument/inlayHint(200)
+I[21:51:29.441] --> reply:textDocument/inlayHint(200) 0 ms
+I[21:51:29.441] --> textDocument/clangd.fileStatus
+I[21:51:29.595] <-- textDocument/inlayHint(201)
+I[21:51:29.596] --> reply:textDocument/inlayHint(201) 0 ms
+I[21:51:29.596] --> textDocument/clangd.fileStatus
+I[21:51:29.992] <-- textDocument/inlayHint(202)
+I[21:51:29.992] --> reply:textDocument/inlayHint(202) 0 ms
+I[21:51:29.993] --> textDocument/clangd.fileStatus
+I[21:51:31.632] <-- textDocument/codeAction(203)
+I[21:51:31.633] --> reply:textDocument/codeAction(203) 0 ms
+I[21:51:31.633] --> textDocument/clangd.fileStatus
+I[21:51:32.076] <-- textDocument/didChange
+I[21:51:32.077] --> textDocument/clangd.fileStatus
+I[21:51:32.113] <-- textDocument/inlayHint(204)
+I[21:51:32.114] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:51:32.116] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 4 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:51:32.117] --> textDocument/clangd.fileStatus
+I[21:51:32.217] --> textDocument/clangd.fileStatus
+I[21:51:32.219] --> textDocument/publishDiagnostics
+I[21:51:32.219] --> textDocument/inactiveRegions
+I[21:51:32.220] --> textDocument/clangd.fileStatus
+I[21:51:32.220] --> reply:textDocument/inlayHint(204) 107 ms
+I[21:51:32.220] --> textDocument/clangd.fileStatus
+I[21:51:32.279] <-- textDocument/foldingRange(205)
+I[21:51:32.280] --> reply:textDocument/foldingRange(205) 1 ms
+I[21:51:32.377] <-- textDocument/semanticTokens/full/delta(206)
+I[21:51:32.377] --> textDocument/clangd.fileStatus
+I[21:51:32.378] --> reply:textDocument/semanticTokens/full/delta(206) 1 ms
+I[21:51:32.378] --> textDocument/clangd.fileStatus
+I[21:51:32.430] <-- textDocument/documentSymbol(207)
+I[21:51:32.430] --> textDocument/clangd.fileStatus
+I[21:51:32.431] --> reply:textDocument/documentSymbol(207) 1 ms
+I[21:51:32.431] --> textDocument/clangd.fileStatus
+I[21:51:32.436] <-- textDocument/documentSymbol(208)
+I[21:51:32.436] --> textDocument/clangd.fileStatus
+I[21:51:32.437] --> reply:textDocument/documentSymbol(208) 1 ms
+I[21:51:32.437] --> textDocument/clangd.fileStatus
+I[21:51:32.491] <-- textDocument/codeAction(209)
+I[21:51:32.491] --> textDocument/clangd.fileStatus
+I[21:51:32.491] --> reply:textDocument/codeAction(209) 0 ms
+I[21:51:32.491] --> textDocument/clangd.fileStatus
+I[21:51:32.832] Built preamble of size 5210016 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 4 in 0.71 seconds
+I[21:51:32.833] --> workspace/semanticTokens/refresh(4)
+I[21:51:32.833] --> textDocument/clangd.fileStatus
+I[21:51:32.834] <-- reply(4)
+I[21:51:32.838] <-- textDocument/didSave
+I[21:51:32.838] File version went from 4 to 4
+I[21:51:32.853] <-- textDocument/semanticTokens/full/delta(210)
+I[21:51:32.880] <-- textDocument/inlayHint(211)
+I[21:51:32.941] --> textDocument/publishDiagnostics
+I[21:51:32.941] --> textDocument/inactiveRegions
+I[21:51:32.942] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:51:32.942] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 4 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:51:32.944] --> textDocument/clangd.fileStatus
+I[21:51:32.944] --> reply:textDocument/semanticTokens/full/delta(210) 91 ms
+I[21:51:32.944] --> textDocument/clangd.fileStatus
+I[21:51:32.945] --> reply:textDocument/inlayHint(211) 64 ms
+I[21:51:32.945] --> textDocument/clangd.fileStatus
+I[21:51:32.946] --> textDocument/clangd.fileStatus
+I[21:51:32.946] --> textDocument/clangd.fileStatus
+I[21:51:33.080] <-- textDocument/documentLink(212)
+I[21:51:33.080] --> reply:textDocument/documentLink(212) 0 ms
+I[21:51:33.080] --> textDocument/clangd.fileStatus
+I[21:51:33.595] <-- textDocument/inlayHint(213)
+I[21:51:33.596] --> reply:textDocument/inlayHint(213) 0 ms
+I[21:51:33.596] --> textDocument/clangd.fileStatus
+I[21:51:33.654] <-- textDocument/inlayHint(214)
+I[21:51:33.655] --> reply:textDocument/inlayHint(214) 0 ms
+I[21:51:33.655] --> textDocument/clangd.fileStatus
+I[21:51:34.404] <-- textDocument/inlayHint(215)
+I[21:51:34.405] --> reply:textDocument/inlayHint(215) 0 ms
+I[21:51:34.405] --> textDocument/clangd.fileStatus
+I[21:51:36.270] <-- textDocument/inlayHint(216)
+I[21:51:36.271] --> reply:textDocument/inlayHint(216) 0 ms
+I[21:51:36.271] --> textDocument/clangd.fileStatus
+I[21:51:37.163] <-- textDocument/inlayHint(217)
+I[21:51:37.164] --> reply:textDocument/inlayHint(217) 1 ms
+I[21:51:37.164] --> textDocument/clangd.fileStatus
+I[21:51:37.774] <-- textDocument/inlayHint(218)
+I[21:51:37.775] --> reply:textDocument/inlayHint(218) 0 ms
+I[21:51:37.775] --> textDocument/clangd.fileStatus
+I[21:51:38.608] <-- textDocument/inlayHint(219)
+I[21:51:38.609] --> reply:textDocument/inlayHint(219) 0 ms
+I[21:51:38.609] --> textDocument/clangd.fileStatus
+I[21:51:39.997] <-- textDocument/inlayHint(220)
+I[21:51:39.998] --> reply:textDocument/inlayHint(220) 0 ms
+I[21:51:39.998] --> textDocument/clangd.fileStatus
+I[21:51:40.035] <-- textDocument/inlayHint(221)
+I[21:51:40.036] --> reply:textDocument/inlayHint(221) 0 ms
+I[21:51:40.036] --> textDocument/clangd.fileStatus
+I[21:51:40.761] <-- textDocument/inlayHint(222)
+I[21:51:40.761] --> reply:textDocument/inlayHint(222) 0 ms
+I[21:51:40.762] --> textDocument/clangd.fileStatus
+I[21:51:40.910] <-- textDocument/inlayHint(223)
+I[21:51:40.911] --> reply:textDocument/inlayHint(223) 0 ms
+I[21:51:40.911] --> textDocument/clangd.fileStatus
+I[21:51:47.490] <-- textDocument/inlayHint(224)
+I[21:51:47.491] --> reply:textDocument/inlayHint(224) 1 ms
+I[21:51:47.492] --> textDocument/clangd.fileStatus
+I[21:51:47.524] <-- textDocument/inlayHint(225)
+I[21:51:47.525] --> reply:textDocument/inlayHint(225) 0 ms
+I[21:51:47.525] --> textDocument/clangd.fileStatus
+I[21:51:52.656] <-- textDocument/inlayHint(226)
+I[21:51:52.657] --> reply:textDocument/inlayHint(226) 1 ms
+I[21:51:52.658] --> textDocument/clangd.fileStatus
+I[21:51:52.691] <-- textDocument/inlayHint(227)
+I[21:51:52.692] --> reply:textDocument/inlayHint(227) 0 ms
+I[21:51:52.692] --> textDocument/clangd.fileStatus
+I[21:51:53.418] <-- textDocument/inlayHint(228)
+I[21:51:53.418] --> reply:textDocument/inlayHint(228) 0 ms
+I[21:51:53.419] --> textDocument/clangd.fileStatus
+I[21:51:53.503] <-- textDocument/inlayHint(229)
+I[21:51:53.504] --> reply:textDocument/inlayHint(229) 0 ms
+I[21:51:53.504] --> textDocument/clangd.fileStatus
+I[21:51:53.549] <-- textDocument/inlayHint(230)
+I[21:51:53.550] --> reply:textDocument/inlayHint(230) 0 ms
+I[21:51:53.550] --> textDocument/clangd.fileStatus
+I[21:51:53.639] <-- textDocument/inlayHint(231)
+I[21:51:53.640] --> reply:textDocument/inlayHint(231) 0 ms
+I[21:51:53.641] --> textDocument/clangd.fileStatus
+I[21:51:53.874] <-- textDocument/inlayHint(232)
+I[21:51:53.875] --> reply:textDocument/inlayHint(232) 0 ms
+I[21:51:53.875] --> textDocument/clangd.fileStatus
+I[21:51:54.064] <-- textDocument/inlayHint(233)
+I[21:51:54.065] --> reply:textDocument/inlayHint(233) 0 ms
+I[21:51:54.065] --> textDocument/clangd.fileStatus
+I[21:51:54.114] <-- textDocument/inlayHint(234)
+I[21:51:54.115] --> reply:textDocument/inlayHint(234) 0 ms
+I[21:51:54.115] --> textDocument/clangd.fileStatus
+I[21:51:55.317] <-- textDocument/inlayHint(235)
+I[21:51:55.318] --> reply:textDocument/inlayHint(235) 0 ms
+I[21:51:55.319] --> textDocument/clangd.fileStatus
+I[21:51:55.364] <-- textDocument/inlayHint(236)
+I[21:51:55.365] --> reply:textDocument/inlayHint(236) 0 ms
+I[21:51:55.365] --> textDocument/clangd.fileStatus
+I[21:51:55.397] <-- textDocument/inlayHint(237)
+I[21:51:55.397] --> reply:textDocument/inlayHint(237) 0 ms
+I[21:51:55.398] --> textDocument/clangd.fileStatus
+I[21:51:55.465] <-- textDocument/inlayHint(238)
+I[21:51:55.466] --> reply:textDocument/inlayHint(238) 0 ms
+I[21:51:55.466] --> textDocument/clangd.fileStatus
+I[21:51:55.556] <-- textDocument/inlayHint(239)
+I[21:51:55.557] --> reply:textDocument/inlayHint(239) 0 ms
+I[21:51:55.557] --> textDocument/clangd.fileStatus
+I[21:51:55.623] <-- textDocument/inlayHint(240)
+I[21:51:55.624] --> reply:textDocument/inlayHint(240) 0 ms
+I[21:51:55.625] --> textDocument/clangd.fileStatus
+I[21:51:55.649] <-- textDocument/inlayHint(241)
+I[21:51:55.650] --> reply:textDocument/inlayHint(241) 0 ms
+I[21:51:55.651] --> textDocument/clangd.fileStatus
+I[21:51:55.714] <-- textDocument/inlayHint(242)
+I[21:51:55.715] --> reply:textDocument/inlayHint(242) 0 ms
+I[21:51:55.715] --> textDocument/clangd.fileStatus
+I[21:51:55.761] <-- textDocument/inlayHint(243)
+I[21:51:55.762] --> reply:textDocument/inlayHint(243) 0 ms
+I[21:51:55.762] --> textDocument/clangd.fileStatus
+I[21:52:02.807] <-- textDocument/inlayHint(244)
+I[21:52:02.808] --> reply:textDocument/inlayHint(244) 0 ms
+I[21:52:02.808] --> textDocument/clangd.fileStatus
+I[21:52:02.873] <-- textDocument/inlayHint(245)
+I[21:52:02.874] --> reply:textDocument/inlayHint(245) 0 ms
+I[21:52:02.874] --> textDocument/clangd.fileStatus
+I[21:52:02.938] <-- textDocument/inlayHint(246)
+I[21:52:02.939] --> reply:textDocument/inlayHint(246) 0 ms
+I[21:52:02.939] --> textDocument/clangd.fileStatus
+I[21:52:02.996] <-- textDocument/inlayHint(247)
+I[21:52:02.997] --> reply:textDocument/inlayHint(247) 0 ms
+I[21:52:02.997] --> textDocument/clangd.fileStatus
+I[21:52:03.173] <-- textDocument/inlayHint(248)
+I[21:52:03.173] --> reply:textDocument/inlayHint(248) 0 ms
+I[21:52:03.174] --> textDocument/clangd.fileStatus
+I[21:52:03.841] <-- textDocument/inlayHint(249)
+I[21:52:03.842] --> reply:textDocument/inlayHint(249) 0 ms
+I[21:52:03.842] --> textDocument/clangd.fileStatus
+I[21:52:04.712] <-- textDocument/inlayHint(250)
+I[21:52:04.712] --> reply:textDocument/inlayHint(250) 0 ms
+I[21:52:04.713] --> textDocument/clangd.fileStatus
+I[21:52:04.777] <-- textDocument/inlayHint(251)
+I[21:52:04.778] --> reply:textDocument/inlayHint(251) 0 ms
+I[21:52:04.778] --> textDocument/clangd.fileStatus
+I[21:52:05.065] <-- textDocument/inlayHint(252)
+I[21:52:05.066] --> reply:textDocument/inlayHint(252) 0 ms
+I[21:52:05.067] --> textDocument/clangd.fileStatus
+I[21:52:05.212] <-- textDocument/inlayHint(253)
+I[21:52:05.213] --> reply:textDocument/inlayHint(253) 0 ms
+I[21:52:05.214] --> textDocument/clangd.fileStatus
+I[21:52:05.407] <-- textDocument/inlayHint(254)
+I[21:52:05.408] --> reply:textDocument/inlayHint(254) 0 ms
+I[21:52:05.408] --> textDocument/clangd.fileStatus
+I[21:52:11.139] <-- textDocument/inlayHint(255)
+I[21:52:11.140] --> reply:textDocument/inlayHint(255) 1 ms
+I[21:52:11.140] --> textDocument/clangd.fileStatus
+I[21:52:27.455] <-- textDocument/inlayHint(256)
+I[21:52:27.456] --> reply:textDocument/inlayHint(256) 1 ms
+I[21:52:27.456] --> textDocument/clangd.fileStatus
+I[21:52:27.506] <-- textDocument/inlayHint(257)
+I[21:52:27.507] --> reply:textDocument/inlayHint(257) 0 ms
+I[21:52:27.507] --> textDocument/clangd.fileStatus
+I[21:52:27.554] <-- textDocument/inlayHint(258)
+I[21:52:27.555] --> reply:textDocument/inlayHint(258) 0 ms
+I[21:52:27.556] --> textDocument/clangd.fileStatus
+I[21:52:28.053] <-- textDocument/inlayHint(259)
+I[21:52:28.053] --> reply:textDocument/inlayHint(259) 0 ms
+I[21:52:28.053] --> textDocument/clangd.fileStatus
+I[21:52:28.359] <-- textDocument/inlayHint(260)
+I[21:52:28.360] --> reply:textDocument/inlayHint(260) 0 ms
+I[21:52:28.361] --> textDocument/clangd.fileStatus
+I[21:52:29.022] <-- textDocument/inlayHint(261)
+I[21:52:29.023] --> reply:textDocument/inlayHint(261) 0 ms
+I[21:52:29.023] --> textDocument/clangd.fileStatus
+I[21:52:30.687] <-- textDocument/didSave
+I[21:52:30.687] File version went from 4 to 4
+I[21:52:30.687] --> textDocument/clangd.fileStatus
+I[21:52:30.789] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:52:30.789] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 4 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[21:52:30.791] --> textDocument/clangd.fileStatus
+I[21:52:30.791] --> textDocument/clangd.fileStatus
+I[21:52:30.793] --> textDocument/clangd.fileStatus
+I[21:52:30.793] --> textDocument/clangd.fileStatus
+I[21:52:52.641] <-- textDocument/hover(262)
+I[21:52:52.643] --> reply:textDocument/hover(262) 2 ms
+I[21:52:52.643] --> textDocument/clangd.fileStatus
+I[21:57:08.845] <-- textDocument/hover(263)
+I[21:57:08.847] --> reply:textDocument/hover(263) 1 ms
+I[21:57:08.847] --> textDocument/clangd.fileStatus
+I[21:57:09.604] <-- textDocument/hover(264)
+I[21:57:09.605] --> reply:textDocument/hover(264) 1 ms
+I[21:57:09.606] --> textDocument/clangd.fileStatus
+I[22:22:48.232] <-- textDocument/hover(265)
+I[22:22:48.234] --> reply:textDocument/hover(265) 1 ms
+I[22:22:48.234] --> textDocument/clangd.fileStatus
+I[22:22:49.105] <-- textDocument/hover(266)
+I[22:22:49.106] --> reply:textDocument/hover(266) 1 ms
+I[22:22:49.106] --> textDocument/clangd.fileStatus
+I[22:33:05.038] <-- textDocument/hover(267)
+I[22:33:05.040] --> reply:textDocument/hover(267) 1 ms
+I[22:33:05.040] --> textDocument/clangd.fileStatus
+I[22:33:05.774] <-- textDocument/hover(268)
+I[22:33:05.777] --> reply:textDocument/hover(268) 2 ms
+I[22:33:05.777] --> textDocument/clangd.fileStatus
+I[22:33:06.213] <-- textDocument/hover(269)
+I[22:33:06.214] --> reply:textDocument/hover(269) 1 ms
+I[22:33:06.215] --> textDocument/clangd.fileStatus
+I[22:33:08.013] <-- textDocument/hover(270)
+I[22:33:08.013] --> reply:textDocument/hover(270) 0 ms
+I[22:33:08.013] --> textDocument/clangd.fileStatus
+I[22:33:14.978] <-- textDocument/didSave
+I[22:33:14.978] File version went from 4 to 4
+I[22:33:14.979] --> textDocument/clangd.fileStatus
+I[22:33:15.081] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:15.081] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 4 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:15.083] --> textDocument/clangd.fileStatus
+I[22:33:15.083] --> textDocument/clangd.fileStatus
+I[22:33:15.085] --> textDocument/clangd.fileStatus
+I[22:33:15.085] --> textDocument/clangd.fileStatus
+I[22:33:23.637] <-- textDocument/didChange
+I[22:33:23.638] --> textDocument/clangd.fileStatus
+I[22:33:23.740] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:23.741] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 5 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:23.743] --> textDocument/clangd.fileStatus
+I[22:33:23.750] <-- textDocument/didChange
+I[22:33:23.758] <-- textDocument/didChange
+I[22:33:23.765] <-- textDocument/didChange
+I[22:33:23.773] <-- textDocument/didChange
+I[22:33:23.795] <-- textDocument/didChange
+I[22:33:23.840] <-- textDocument/completion(271)
+I[22:33:23.841] <-- textDocument/inlayHint(272)
+I[22:33:23.852] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[22:33:23.852] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[22:33:23.853] --> reply:textDocument/completion(271) 12 ms
+I[22:33:23.856] --> textDocument/publishDiagnostics
+I[22:33:23.856] --> textDocument/inactiveRegions
+I[22:33:23.858] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:23.859] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 10 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:23.860] --> textDocument/clangd.fileStatus
+I[22:33:23.937] <-- textDocument/semanticTokens/full/delta(273)
+I[22:33:23.964] --> textDocument/publishDiagnostics
+I[22:33:23.964] --> textDocument/inactiveRegions
+I[22:33:23.966] --> reply:textDocument/inlayHint(272) 125 ms
+I[22:33:23.967] --> reply:textDocument/semanticTokens/full/delta(273) 29 ms
+I[22:33:23.967] --> textDocument/clangd.fileStatus
+I[22:33:23.997] <-- textDocument/foldingRange(274)
+I[22:33:23.998] --> reply:textDocument/foldingRange(274) 1 ms
+I[22:33:24.147] <-- textDocument/documentSymbol(275)
+I[22:33:24.148] --> reply:textDocument/documentSymbol(275) 0 ms
+I[22:33:24.148] --> textDocument/clangd.fileStatus
+I[22:33:24.158] <-- textDocument/documentSymbol(276)
+I[22:33:24.159] --> reply:textDocument/documentSymbol(276) 0 ms
+I[22:33:24.160] --> textDocument/clangd.fileStatus
+I[22:33:24.221] <-- textDocument/codeAction(277)
+I[22:33:24.221] --> reply:textDocument/codeAction(277) 0 ms
+I[22:33:24.221] --> textDocument/clangd.fileStatus
+I[22:33:24.597] <-- textDocument/inlayHint(278)
+I[22:33:24.598] --> reply:textDocument/inlayHint(278) 0 ms
+I[22:33:24.598] --> textDocument/clangd.fileStatus
+I[22:33:24.668] <-- textDocument/didChange
+I[22:33:24.668] --> textDocument/clangd.fileStatus
+I[22:33:24.697] <-- textDocument/inlayHint(279)
+I[22:33:24.697] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:24.698] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 11 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:24.700] --> textDocument/clangd.fileStatus
+I[22:33:24.810] --> textDocument/publishDiagnostics
+I[22:33:24.810] --> textDocument/inactiveRegions
+I[22:33:24.811] --> reply:textDocument/inlayHint(279) 114 ms
+I[22:33:24.812] --> textDocument/clangd.fileStatus
+I[22:33:24.829] <-- textDocument/didChange
+I[22:33:24.830] --> textDocument/clangd.fileStatus
+I[22:33:24.878] <-- textDocument/inlayHint(280)
+I[22:33:24.878] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:24.880] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 12 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:24.881] --> textDocument/clangd.fileStatus
+I[22:33:24.968] <-- textDocument/semanticTokens/full/delta(281)
+I[22:33:24.985] --> textDocument/publishDiagnostics
+I[22:33:24.985] --> textDocument/inactiveRegions
+I[22:33:24.987] <-- textDocument/didChange
+I[22:33:24.987] --> reply:textDocument/inlayHint(280) 109 ms
+I[22:33:24.988] --> reply:textDocument/semanticTokens/full/delta(281) 20 ms
+I[22:33:24.988] --> textDocument/clangd.fileStatus
+I[22:33:24.989] <-- $/cancelRequest
+I[22:33:25.036] <-- textDocument/inlayHint(282)
+I[22:33:25.037] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.038] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 13 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.039] --> textDocument/clangd.fileStatus
+I[22:33:25.144] --> textDocument/publishDiagnostics
+I[22:33:25.144] --> textDocument/inactiveRegions
+I[22:33:25.146] --> reply:textDocument/inlayHint(282) 109 ms
+I[22:33:25.146] --> textDocument/clangd.fileStatus
+I[22:33:25.161] <-- textDocument/didChange
+I[22:33:25.161] --> textDocument/clangd.fileStatus
+I[22:33:25.211] <-- textDocument/inlayHint(283)
+I[22:33:25.211] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.212] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 14 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.214] --> textDocument/clangd.fileStatus
+I[22:33:25.287] <-- textDocument/semanticTokens/full/delta(284)
+I[22:33:25.314] <-- textDocument/didChange
+I[22:33:25.315] <-- $/cancelRequest
+I[22:33:25.320] --> textDocument/publishDiagnostics
+I[22:33:25.320] --> textDocument/inactiveRegions
+I[22:33:25.321] --> reply:textDocument/inlayHint(283) 110 ms, error: Task was cancelled.
+[Error - 10:33:25 PM] Request textDocument/inlayHint failed.
+[object Object]
+I[22:33:25.322] --> reply:textDocument/semanticTokens/full/delta(284) 35 ms
+I[22:33:25.322] --> textDocument/clangd.fileStatus
+I[22:33:25.363] <-- textDocument/inlayHint(285)
+I[22:33:25.364] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.365] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 15 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.367] --> textDocument/clangd.fileStatus
+I[22:33:25.472] --> textDocument/publishDiagnostics
+I[22:33:25.472] --> textDocument/inactiveRegions
+I[22:33:25.474] --> reply:textDocument/inlayHint(285) 110 ms
+I[22:33:25.474] --> textDocument/clangd.fileStatus
+I[22:33:25.515] <-- textDocument/foldingRange(286)
+I[22:33:25.517] --> reply:textDocument/foldingRange(286) 1 ms
+I[22:33:25.615] <-- textDocument/semanticTokens/full/delta(287)
+I[22:33:25.616] --> reply:textDocument/semanticTokens/full/delta(287) 1 ms
+I[22:33:25.616] --> textDocument/clangd.fileStatus
+I[22:33:25.629] <-- textDocument/didChange
+I[22:33:25.629] --> textDocument/clangd.fileStatus
+I[22:33:25.665] <-- textDocument/documentSymbol(288)
+I[22:33:25.665] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.667] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 16 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:25.669] --> textDocument/clangd.fileStatus
+I[22:33:25.680] <-- $/cancelRequest
+I[22:33:25.697] <-- textDocument/inlayHint(289)
+I[22:33:25.778] --> textDocument/publishDiagnostics
+I[22:33:25.778] --> textDocument/inactiveRegions
+I[22:33:25.779] --> reply:textDocument/documentSymbol(288) 113 ms, error: Task was cancelled.
+[Error - 10:33:25 PM] Request textDocument/documentSymbol failed.
+[object Object]
+I[22:33:25.779] --> reply:textDocument/inlayHint(289) 82 ms
+I[22:33:25.780] --> textDocument/clangd.fileStatus
+I[22:33:25.830] <-- textDocument/foldingRange(290)
+I[22:33:25.831] --> reply:textDocument/foldingRange(290) 1 ms
+I[22:33:25.929] <-- textDocument/semanticTokens/full/delta(291)
+I[22:33:25.931] --> reply:textDocument/semanticTokens/full/delta(291) 1 ms
+I[22:33:25.931] --> textDocument/clangd.fileStatus
+I[22:33:25.980] <-- textDocument/documentSymbol(292)
+I[22:33:25.980] <-- textDocument/documentSymbol(293)
+I[22:33:25.981] --> reply:textDocument/documentSymbol(292) 0 ms
+I[22:33:25.982] --> reply:textDocument/documentSymbol(293) 1 ms
+I[22:33:25.982] --> textDocument/clangd.fileStatus
+I[22:33:26.367] <-- textDocument/didSave
+I[22:33:26.367] File version went from 16 to 16
+I[22:33:26.367] --> textDocument/clangd.fileStatus
+I[22:33:26.430] <-- textDocument/inlayHint(294)
+I[22:33:26.430] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:26.431] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 16 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:33:26.432] --> textDocument/clangd.fileStatus
+I[22:33:26.432] --> reply:textDocument/inlayHint(294) 2 ms
+I[22:33:26.433] --> textDocument/clangd.fileStatus
+I[22:33:26.434] --> textDocument/clangd.fileStatus
+I[22:33:26.434] --> textDocument/clangd.fileStatus
+I[22:33:26.631] <-- textDocument/documentLink(295)
+I[22:33:26.631] --> reply:textDocument/documentLink(295) 0 ms
+I[22:33:26.631] --> textDocument/clangd.fileStatus
+I[22:33:30.597] <-- textDocument/inlayHint(296)
+I[22:33:30.599] --> reply:textDocument/inlayHint(296) 1 ms
+I[22:33:30.599] --> textDocument/clangd.fileStatus
+I[22:34:30.911] <-- textDocument/documentHighlight(297)
+I[22:34:30.912] --> reply:textDocument/documentHighlight(297) 0 ms
+I[22:34:30.912] --> textDocument/clangd.fileStatus
+I[22:34:31.110] <-- textDocument/codeAction(298)
+I[22:34:31.110] --> reply:textDocument/codeAction(298) 0 ms
+I[22:34:31.110] --> textDocument/clangd.fileStatus
+I[22:35:10.216] <-- textDocument/documentHighlight(299)
+I[22:35:10.217] --> reply:textDocument/documentHighlight(299) 0 ms
+I[22:35:10.217] --> textDocument/clangd.fileStatus
+I[22:35:26.347] <-- textDocument/hover(300)
+I[22:35:26.348] --> reply:textDocument/hover(300) 0 ms
+I[22:35:26.348] --> textDocument/clangd.fileStatus
+I[22:35:29.706] <-- textDocument/documentHighlight(301)
+I[22:35:29.707] --> reply:textDocument/documentHighlight(301) 0 ms
+I[22:35:29.707] --> textDocument/clangd.fileStatus
+I[22:35:29.873] <-- textDocument/codeAction(302)
+I[22:35:29.873] --> reply:textDocument/codeAction(302) 0 ms
+I[22:35:29.873] --> textDocument/clangd.fileStatus
+I[22:35:30.572] <-- textDocument/didSave
+I[22:35:30.572] File version went from 16 to 16
+I[22:35:30.572] --> textDocument/clangd.fileStatus
+I[22:35:30.677] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:35:30.678] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 16 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[22:35:30.680] --> textDocument/clangd.fileStatus
+I[22:35:30.680] --> textDocument/clangd.fileStatus
+I[22:35:30.682] --> textDocument/clangd.fileStatus
+I[22:35:30.682] --> textDocument/clangd.fileStatus

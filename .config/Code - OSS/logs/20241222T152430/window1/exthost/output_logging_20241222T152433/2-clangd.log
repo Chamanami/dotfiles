@@ -1,0 +1,9 @@
+I[15:27:07.737] clangd version 18.1.8
+I[15:27:07.737] Features: linux
+I[15:27:07.737] PID: 26590
+I[15:27:07.737] Working directory: /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje
+I[15:27:07.737] argv[0]: /usr/bin/clangd
+I[15:27:07.738] Starting LSP over stdin/stdout
+I[15:27:07.740] <-- initialize(0)
+I[15:27:07.745] --> reply:initialize(0) 4 ms
+I[15:27:07.750] <-- initialized

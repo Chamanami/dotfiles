@@ -1,0 +1,69 @@
+I[14:07:42.134] clangd version 18.1.8
+I[14:07:42.134] Features: linux
+I[14:07:42.134] PID: 2634
+I[14:07:42.134] Working directory: /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje
+I[14:07:42.134] argv[0]: /usr/bin/clangd
+I[14:07:42.135] Starting LSP over stdin/stdout
+I[14:07:42.138] <-- initialize(0)
+I[14:07:42.142] --> reply:initialize(0) 4 ms
+I[14:07:42.215] <-- initialized
+I[14:07:42.391] <-- textDocument/didOpen
+I[14:07:42.394] Failed to find compilation database for /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[14:07:42.395] ASTWorker building file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 1 with command clangd fallback
+[/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin]
+/usr/bin/clang -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/fxpt/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/xt_hifi4/include -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/dec -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/haos -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/bitripper -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/odt -I/home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/sys/wave -resource-dir=/usr/lib/clang/18 -- /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[14:07:42.409] --> textDocument/clangd.fileStatus
+I[14:07:42.425] <-- textDocument/documentLink(1)
+I[14:07:42.426] <-- textDocument/inlayHint(2)
+I[14:07:42.426] <-- textDocument/codeAction(3)
+I[14:07:42.426] <-- $/setTrace
+I[14:07:42.426] unhandled notification $/setTrace
+I[14:07:42.477] <-- textDocument/foldingRange(4)
+I[14:07:42.479] --> reply:textDocument/foldingRange(4) 1 ms
+I[14:07:42.502] <-- $/cancelRequest
+I[14:07:42.546] <-- $/cancelRequest
+I[14:07:42.546] <-- textDocument/codeAction(5)
+I[14:07:42.560] <-- textDocument/documentLink(6)
+I[14:07:42.560] <-- textDocument/documentSymbol(7)
+I[14:07:42.643] <-- $/cancelRequest
+I[14:07:42.644] <-- textDocument/codeAction(8)
+I[14:07:42.645] <-- $/cancelRequest
+I[14:07:42.646] <-- textDocument/codeAction(9)
+I[14:07:42.766] <-- $/setTrace
+I[14:07:42.766] unhandled notification $/setTrace
+I[14:07:42.793] <-- textDocument/semanticTokens/full(10)
+I[14:07:42.922] <-- $/setTrace
+I[14:07:42.922] unhandled notification $/setTrace
+I[14:07:43.037] <-- textDocument/documentSymbol(11)
+I[14:07:43.212] Built preamble of size 5210016 for file /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp version 1 in 0.80 seconds
+I[14:07:43.212] --> workspace/semanticTokens/refresh(0)
+I[14:07:43.212] Indexing c++17 standard library in the context of /home/mladen/Desktop/Faks/DSP/aadsp-al-bolje/HAOS_sim/proc/fin/fin_proc.cpp
+I[14:07:43.214] <-- reply(0)
+I[14:07:43.322] --> textDocument/publishDiagnostics
+I[14:07:43.322] --> textDocument/inactiveRegions
+I[14:07:43.323] --> reply:textDocument/documentLink(1) 898 ms, error: Task was cancelled.
+I[14:07:43.324] --> reply:textDocument/inlayHint(2) 898 ms
+I[14:07:43.325] --> reply:textDocument/codeAction(3) 898 ms, error: Task was cancelled.
+I[14:07:43.325] --> reply:textDocument/codeAction(5) 778 ms, error: Task was cancelled.
+I[14:07:43.325] --> reply:textDocument/documentLink(6) 765 ms
+[Error - 2:07:43 PM] Request textDocument/documentLink failed.
+[object Object]
+I[14:07:43.326] --> reply:textDocument/documentSymbol(7) 766 ms
+I[14:07:43.327] --> reply:textDocument/codeAction(8) 682 ms, error: Task was cancelled.
+I[14:07:43.327] --> reply:textDocument/codeAction(9) 681 ms
+I[14:07:43.328] --> reply:textDocument/semanticTokens/full(10) 534 ms
+I[14:07:43.328] --> reply:textDocument/documentSymbol(11) 291 ms
+I[14:07:43.329] --> textDocument/clangd.fileStatus
+[Error - 2:07:43 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 2:07:43 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 2:07:43 PM] Request textDocument/codeAction failed.
+[object Object]
+I[14:07:44.005] <-- textDocument/semanticTokens/full/delta(12)
+I[14:07:44.006] --> reply:textDocument/semanticTokens/full/delta(12) 1 ms
+I[14:07:44.006] --> textDocument/clangd.fileStatus
+I[14:07:44.245] <-- textDocument/inlayHint(13)
+I[14:07:44.245] --> reply:textDocument/inlayHint(13) 0 ms
+I[14:07:44.245] --> textDocument/clangd.fileStatus
+I[14:07:45.715] Indexed c++17 standard library (incomplete due to errors): 14164 symbols, 1810 filtered

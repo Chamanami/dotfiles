@@ -1,0 +1,32 @@
+2024-12-26 13:43:16.639 [info] Extension host with pid 2447 started
+2024-12-26 13:43:16.639 [info] Skipping acquiring lock for /home/mladen/.config/Code - OSS/User/workspaceStorage/b2c19cb292047c8cdb328abaa404e5f0.
+2024-12-26 13:43:16.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-26 13:43:16.948 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-26 13:43:17.071 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-26 13:43:17.183 [info] Eager extensions activated
+2024-12-26 13:43:17.236 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-26 13:43:17.240 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-26 13:43:20.118 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-26 13:43:49.958 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-12-26 13:43:50.034 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-12-26 13:46:03.548 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-26 13:46:03.573 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-26 13:46:03.695 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-26 13:47:21.058 [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:cpp'
+2024-12-26 13:47:21.136 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2024-12-26 13:47:21.148 [info] ExtensionService#_doActivateExtension KylinIdeTeam.cppdebug, startup: false, activationEvent: 'onLanguage:cpp'
+2024-12-26 13:47:21.167 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2024-12-26 13:47:40.983 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-12-26 13:50:39.735 [error] Error: Invalid debug adapter
+    at mVt.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at mVt.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Fdt.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:41680)
+    at Fdt.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:41458)
+    at Fdt.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:40546)
+    at Fdt.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:39783)
+    at aee.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3145:38444)
+    at x.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2024-12-26 13:50:53.656 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2024-12-26 13:50:53.657 [error] {"a":true,"b":null}

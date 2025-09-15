@@ -1,0 +1,10 @@
+2025-01-30 11:34:06.800 [info] Extension host with pid 23911 started
+2025-01-30 11:34:06.800 [info] Skipping acquiring lock for /home/mladen/.config/Code - OSS/User/workspaceStorage/78a97753d268403aa82c2ae2246093cd.
+2025-01-30 11:34:06.820 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-30 11:34:06.977 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-30 11:34:07.089 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-30 11:34:07.192 [info] Eager extensions activated
+2025-01-30 11:34:07.211 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 11:34:07.213 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 11:34:07.227 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-01-30 11:34:07.249 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'

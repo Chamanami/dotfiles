@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "HAOS_sim",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/HAOS_sim/haos",
+      "args": [
+        // "-cfg", "./cfg.txt",
+        "-input",
+        "TestStreams/Tone_L1k_R3k.wav",
+        "-output",
+        "out_arch.wav"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/HAOS_sim",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "xt_hifi4",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/xt_hifi4/xt_hifi4",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/xt_hifi4",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build xt_hifi4",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "fxpt",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/fxpt/fxpt",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/fxpt",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build fxpt",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

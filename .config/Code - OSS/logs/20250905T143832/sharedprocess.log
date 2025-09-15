@@ -1,0 +1,30 @@
+2025-09-05 14:38:34.210 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.1
+2025-09-05 14:38:34.249 [info] Deleted marked for removal extension from disk franneck94.vscode-c-cpp-config /home/mladen/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-6.0.0-universal
+2025-09-05 14:38:42.987 [info] Getting Manifest... 13xforever.language-x86-64-assembly
+2025-09-05 14:38:42.988 [info] Getting Manifest... kylinideteam.cppdebug
+2025-09-05 14:38:42.989 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2025-09-05 14:38:42.989 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-09-05 14:38:43.721 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"productVersion":{"version":"1.103.0","date":"2025-08-13T19:30:24.045Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json","path":"/home/mladen/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-09-05 14:38:43.723 [info] Installing extension: 13xforever.language-x86-64-assembly {"productVersion":{"version":"1.103.0","date":"2025-08-13T19:30:24.045Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json","path":"/home/mladen/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-09-05 14:38:43.796 [info] Installing extension: vadimcn.vscode-lldb {"productVersion":{"version":"1.103.0","date":"2025-08-13T19:30:24.045Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json","path":"/home/mladen/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-09-05 14:38:43.830 [info] Installing extension: kylinideteam.cppdebug {"productVersion":{"version":"1.103.0","date":"2025-08-13T19:30:24.045Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json","path":"/home/mladen/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-09-05 14:38:45.976 [info] Extension signature verification result for 13xforever.language-x86-64-assembly: Success. Executed: true. Duration: 1437ms.
+2025-09-05 14:38:45.989 [info] Extracted extension to file:///home/mladen/.vscode-oss/extensions/13xforever.language-x86-64-assembly-3.1.5-universal: 13xforever.language-x86-64-assembly
+2025-09-05 14:38:45.993 [info] Renamed to /home/mladen/.vscode-oss/extensions/13xforever.language-x86-64-assembly-3.1.5-universal
+2025-09-05 14:38:46.001 [info] Marked extension as removed 13xforever.language-x86-64-assembly-3.1.4-universal
+2025-09-05 14:38:46.004 [info] Extension installed successfully: 13xforever.language-x86-64-assembly vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json
+2025-09-05 14:38:46.158 [info] Extension signature verification result for vadimcn.vscode-lldb: Success. Executed: true. Duration: 1515ms.
+2025-09-05 14:38:46.160 [info] Extension signature verification result for llvm-vs-code-extensions.vscode-clangd: Success. Executed: true. Duration: 1519ms.
+2025-09-05 14:38:46.176 [info] Extracted extension to file:///home/mladen/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5-universal: vadimcn.vscode-lldb
+2025-09-05 14:38:46.180 [info] Renamed to /home/mladen/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5-universal
+2025-09-05 14:38:46.187 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.3-universal
+2025-09-05 14:38:46.189 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json
+2025-09-05 14:38:46.190 [info] Extracted extension to file:///home/mladen/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal: llvm-vs-code-extensions.vscode-clangd
+2025-09-05 14:38:46.192 [info] Renamed to /home/mladen/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal
+2025-09-05 14:38:46.199 [info] Marked extension as removed llvm-vs-code-extensions.vscode-clangd-0.1.33-universal
+2025-09-05 14:38:46.200 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json
+2025-09-05 14:39:00.440 [info] Extension signature verification result for kylinideteam.cppdebug: Success. Executed: true. Duration: 700ms.
+2025-09-05 14:39:00.955 [info] Extracted extension to file:///home/mladen/.vscode-oss/extensions/kylinideteam.cppdebug-0.1.0-linux-x64: kylinideteam.cppdebug
+2025-09-05 14:39:00.963 [info] Renamed to /home/mladen/.vscode-oss/extensions/kylinideteam.cppdebug-0.1.0-linux-x64
+2025-09-05 14:39:00.974 [info] Marked extension as removed kylinideteam.cppdebug-0.0.8-linux-x64
+2025-09-05 14:39:00.975 [info] Extension installed successfully: kylinideteam.cppdebug vscode-userdata:/home/mladen/.vscode-oss/extensions/extensions.json

@@ -1,0 +1,5 @@
+2024-12-20 21:35:31.605 [info] Started local extension host with pid 5410.
+2024-12-20 21:35:31.635 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mladen/.vscode-oss/extensions
+2024-12-20 21:35:31.801 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mladen/.vscode-oss/extensions
+2024-12-20 21:35:34.583 [info] [perf] Render performance baseline is 20ms
+2024-12-20 21:35:37.113 [error] Timed out waiting for authentication provider to register
